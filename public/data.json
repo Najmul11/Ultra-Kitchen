@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "name":"Steak",
+        "time":5,
+        "description":"A phenomenal beef Steak , bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/beef.png"
+     },
+
+    {
+        "id":2,
+        "name":"Fried chicken",
+        "time":6,
+        "description":"A fantastic fried chicken  , chicken is love. bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/chicken.png"
+     },
+
+    {
+        "id":3,
+        "name":"Lamb lollipop",
+        "time":5,
+        "description":"An awesome cuisine , cant say no. bless your testbud having this!!",
+          "img":"https://www.themealdb.com/images/category/lamb.png"
+     },
+
+    {
+        "id":4,
+        "name":"Indian pasta",
+        "time":6,
+        "description":"Pasta like you never had , yes pasta...bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/pasta.png"
+     },
+
+    {
+        "id":5,
+        "name":"Salmon",
+        "time":5,
+        "description":"Salmon is tasty, butturry , smooth,  bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/seafood.png"
+     },
+
+    {
+        "id":6,
+        "name":"Veg bomb",
+        "time":6,
+        "description":"for the vegeterian, best in town. bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/vegan.png"
+     },
+
+    {
+        "id":7,
+        "name":"Panecake",
+        "time":5,
+        "description":"Nothing better than panecake , bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/breakfast.png"
+     },
+
+    {
+        "id":8,
+        "name":"Chagoler mangsho",
+        "time":6,
+        "description":"This is it, this is it... , best in town. bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/goat.png"
+     },
+    {
+        "id":9,
+        "name":"Icecream",
+        "time":5,
+        "description":"Icecream goes so well , taka ferot na vallagle. bless your testbud having this!!",  "img":"https://www.themealdb.com/images/category/dessert.png"
+        
+     }
+
+]

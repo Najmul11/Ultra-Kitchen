@@ -1,0 +1,9 @@
+.number{
+    font-size: 35px;
+    font-weight: 700;
+}
+.unit{
+    margin: 0;
+    font-weight: lighter;
+    color: gray
+}
