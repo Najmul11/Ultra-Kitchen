@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { addToDb, getStoredBreakTime } from '../../utilities/fakedb';
 import BreakButton from '../BreakButton/BreakButton';
 import './AddBreak.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const AddBreak = (props) => {
     const {list}=props
@@ -28,6 +30,9 @@ const AddBreak = (props) => {
       setTime(x)
       addToDb(x)
     }
+    const notify = () => toast.success("Wow so easy!",{
+        position: toast.POSITION.TOP_CENTER
+    });
 
     return (
         <div className='activities'>
@@ -47,7 +52,8 @@ const AddBreak = (props) => {
                     <p>Break time</p>
                     <p className='time'>{time.slice(0,2)} seconds</p>
                 </div>
-                <button className='finish-task-btn'>Activity Completed</button>
+                <button onClick={notify} className='finish-task-btn'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
