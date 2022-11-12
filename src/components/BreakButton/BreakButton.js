@@ -4,7 +4,7 @@ const BreakButton = (props) => {
     const {breaktime, setBreak}=props
     const {time}=breaktime
     return (
-            <button onClick={()=>setBreak(time)}>
+            <button onClick={()=>setBreak(time)} className='break'>
                 {time}
             </button>
     );

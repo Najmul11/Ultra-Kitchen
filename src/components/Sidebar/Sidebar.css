@@ -29,3 +29,10 @@
     font-weight: 400;
     color: gray
 }
+
+
+@media only screen and (max-width: 730px) {
+    .about{
+        justify-content: center;
+    }
+  }
