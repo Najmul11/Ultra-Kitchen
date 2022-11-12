@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { addToDb, getStoredBreakTime } from '../../utilities/fakedb';
 import BreakButton from '../BreakButton/BreakButton';
 import './AddBreak.css'
 
@@ -9,7 +10,13 @@ const AddBreak = (props) => {
        totalTime=totalTime + item.time
     }
 
+
     const [time, setTime]=useState('0 seconds')
+   useEffect(()=>{
+    const storedTime=getStoredBreakTime()
+    setTime(storedTime)
+   },[])
+
     const [breaktime, setBreakTime]=useState([])
    useEffect(()=>{
         fetch('time.json')
@@ -19,6 +26,7 @@ const AddBreak = (props) => {
 
     const setBreak=(x)=>{
       setTime(x)
+      addToDb(x)
     }
 
     return (
